@@ -1,0 +1,204 @@
+.techdiv{
+    display:block;
+    padding: 3rem 2rem;
+    background-color: rgb(255, 112, 23);
+}
+
+.techdiv > h1 {
+    display: flex;
+    background-color: gold;
+    border-radius: 5px;
+    border:2px solid black;
+    filter:drop-shadow(3px 3px black);
+    padding: .5rem none;
+}
+.techdiv > h1{
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.techdiv > :nth-child(3){
+    margin-top: 5rem;
+}
+
+.techdiv{
+    text-align: center;
+}
+
+.techstacks{
+    width:25;
+}
+.techstacks> div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    gap: .5rem;
+    filter: drop-shadow(3px 3px black);
+    transition: all .3s ease-in;
+    bottom:0;
+    right:0;
+    margin: 1rem auto 0;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: relative;
+    bottom: 3px;
+    right:3px;
+}
+
+.techstacks >div> img{
+    margin:auto;
+}
+
+.techdiv >div >div >p {
+}
+
+.techdiv > div> div:hover{
+    bottom:0px;
+    right:0px;
+    filter:none;
+}
+
+
+
+
+.techdiv > div{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 4rem auto; 
+gap: 2rem;}
+
+.techdiv >div >div:before {
+        transform: rotateY(180deg);
+    }
+
+    .techdiv >div >div::after{
+        transform: rotateY(180deg);
+  }
+
+  .techstack-image{
+    margin: auto;
+  }
+
+
+
+  .stroke-text-container >div {
+    -webkit-text-stroke-color: rgb(255, 160, 58);
+    -webkit-text-stroke-width: 2px;
+  }
+
+
+
+
+
+
+  /* NIGHTMODE  */
+
+  .nightMode-techdiv{
+    display:block;
+    padding: 3rem 2rem;
+    background-color: #3B10A8;
+}
+
+.nightMode-techdiv > h1 {
+    display: flex;
+    background-color: #E0FF99;
+    border-radius: 5px;
+    border:2px solid black;
+    filter:drop-shadow(3px 3px black);
+    padding: .5rem none;
+}
+.nightMode-techdiv > h1{
+    text-align: center;
+    display: block;
+    margin: 1rem;
+}
+.nightMode-techdiv > :nth-child(3){
+    margin-top: 5rem;
+}
+
+.nightMode-techdiv{
+    text-align: center;
+}
+
+.nightMode-techstacks{
+    width:25;
+}
+.nightMode-techstacks> div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    gap: .5rem;
+    filter: drop-shadow(3px 3px black);
+    transition: all .3s ease-in;
+    bottom:0;
+    right:0;
+    margin: 1rem auto 0;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    position: relative;
+    bottom: 3px;
+    right:3px;
+}
+
+.nightMode-techstacks >div> img{
+    margin:auto;
+}
+
+.techdiv >div >div >p {
+}
+
+.nightMode-techdiv > div> div:hover{
+    bottom:0px;
+    right:0px;
+    filter:none;
+}
+
+
+
+
+.nightMode-techdiv > div{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 4rem auto; 
+gap: 2rem;}
+
+.nightMode-techdiv >div >div:before {
+        transform: rotateY(180deg);
+    }
+
+    .nightMode-techdiv >div >div::after{
+        transform: rotateY(180deg);
+  }
+
+  .nightMode-techstack-image{
+    margin: auto;
+  }
+
+
+
+  .nightMode-stroke-text-container >div {
+    -webkit-text-stroke-color: rgb(255, 160, 58);
+    -webkit-text-stroke-width: 2px;
+  }
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+html, body, h1, p, h4, h2, img, svg {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    overflow-x:hidden;
+  }
+
+  a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer img{
+    cursor: pointer;
+    overflow: hidden;
+}

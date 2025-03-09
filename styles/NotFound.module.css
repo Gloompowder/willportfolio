@@ -1,0 +1,40 @@
+.notFound{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+.notFound>div {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.notFound > div>* {
+    margin: auto;
+    text-decoration: none;
+    display:inline;
+    color: white;
+}
+
+
+.notFound > div > a {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: large;
+}
+
+.notFound > div >a:hover {
+    color: rgb(255, 112, 23);
+}
+
+
+.notFound > div > h1 {
+    font-size: 20vw;
+}
+
+.notFound > div > h2 {
+    font-size: 8vw;
+}
+

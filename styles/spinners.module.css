@@ -1,0 +1,38 @@
+.spinners {
+    overflow-x: hidden;
+}
+
+.spinners > :nth-child(1){
+    position: absolute;
+    width: max(3rem, 20%);
+    height: min(15%, 30%);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+    right: 6%;
+    top: 10%;
+}
+.spinners > :nth-child(2){
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+    text-align: center;
+    top: 10rem;
+    left: -20px;
+}
+
+.spinners > :nth-child(3){
+    position: absolute;
+    width: clamp(10%,14%, 20%);
+    height: min(10%,14%);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 2;
+    text-align: center;
+    top: 40rem;
+    right: 20px;
+}

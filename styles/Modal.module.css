@@ -1,0 +1,194 @@
+.mobileModal{
+    position:absolute;
+    margin: auto;
+    background-color: rgb(255, 112, 23);
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+  .mobileModal.showModal {
+    position: fixed;
+    overflow: hidden;
+  }
+.mobileModal>div{
+    padding: 1rem;
+    background-color: rgb(255, 112, 23);
+}
+.mobileModal>div>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileModal >div >div>span{
+    padding: 0 2.5rem;
+    cursor: pointer;
+    font-size: large;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mobileModal >div >div>span:hover{
+color: gold;
+}
+
+
+.modal-button-div{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 1rem;
+    gap: 2rem;
+    justify-content: space-evenly
+}
+
+.modal-button-div > h1{
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.modal-button-div > h1:hover{
+    text-align: center;
+    color:gold;
+}
+.modal-button-div > button{
+    position:relative;
+    bottom: 3px;
+    right: 3px;
+    display:inline-block;
+    padding: .5rem 1rem;
+    background-color: white;
+    border-radius: 20px;
+    border:2px solid black;
+    transition: all .3s ease-in;
+    filter: drop-shadow(3px 3px black);
+    font-family: Poppins;
+}
+
+.modal-button-div > button:hover{
+    bottom: 0;
+    right: 0;
+    filter: none;
+    font-weight: 600;
+}
+
+.modal-social-media{
+    display:flex;
+    margin: 1rem;
+    background-color: rgb(255, 112, 23);
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.modal-social-media>a{
+    transition: .3s all ease-in-out;
+}
+.modal-social-media>a:hover{
+    scale: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+/* NIGHTMODE */
+
+.nightMode-mobileModal{
+    position:absolute;
+    margin: auto;
+    background-color: black;
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    overflow: hidden;
+    color:white;
+}
+
+  .nightMode-mobileModal.showModal {
+    position: fixed;
+    overflow: hidden;
+  }
+.nightMode-mobileModal>div{
+    padding: 1rem;
+    background-color: black;
+}
+.nightMode-mobileModal>div>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.nightMode-mobileModal >div >div>span{
+    padding: 0 2.5rem;
+    cursor: pointer;
+    font-size: large;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nightMode-mobileModal >div >div>span:hover{
+color: #e0ff99;
+}
+
+
+.nightMode-modal-button-div{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 1rem;
+    gap: 2rem;
+    justify-content: space-evenly
+}
+
+.nightMode-modal-button-div > h1{
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.nightMode-modal-button-div > h1:hover{
+    text-align: center;
+    color: #e0ff99;
+}
+.nightMode-modal-button-div > button{
+    position:relative;
+    bottom: 3px;
+    right: 3px;
+    display:inline-block;
+    padding: .5rem 1rem;
+    background-color: #3B10A8;
+    border-radius: 20px;
+    border:2px solid white;
+    transition: all .3s ease-in;
+    filter: drop-shadow(3px 3px white);
+    font-family: Poppins;
+    color:white;
+}
+
+.nightMode-modal-button-div > button:hover{
+    bottom: 0;
+    right: 0;
+    filter: none;
+    font-weight: 600;
+}
+
+.nightMode-modal-social-media{
+    display:flex;
+    margin: 1rem;
+    background-color: black;
+    text-align: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.nightMode-modal-social-media>a{
+    transition: .3s all ease-in-out;
+}
+.nightMode-modal-social-media>a:hover{
+    scale: 1.2;
+}

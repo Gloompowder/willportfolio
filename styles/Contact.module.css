@@ -1,0 +1,280 @@
+.contact-background{
+    background-color: gold;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.contact-container{
+    margin:auto;
+    text-align: center;
+    padding: 4rem 2rem 4rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1rem;
+}
+.contact-container > :nth-child(2) {
+    filter:drop-shadow(3px 3px black)
+}
+
+.contact-header-div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-header-div >h1, .contact-header-div >p{
+    display:inline-flex;
+    margin: auto;
+}
+
+.contact-border{
+    margin:.5rem;
+    border:1px solid gold;
+}
+.my-form{
+    background-color: white;
+    padding:1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    filter: drop-shadow(3xp 3px black);
+}
+.submit-button{
+    width:100%;
+    margin-top: 1rem;
+    background-color: rgb(255,112,23);
+    border: 2px solid black;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px black);
+    position: relative;
+    padding: .5rem 1rem;
+    bottom: 3px;
+    right:3px;
+    transition: all .3s ease-in;
+    font-family: Poppins;
+    color:white;
+    font-weight: 600;
+}
+
+.submit-button:hover{
+    bottom: 0;
+    right: 0;
+    filter:none;
+    color:black;
+}
+
+.contact-div{
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.row-1, .row-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-1> div, .row-2>div{
+    padding:.5rem;
+}
+
+.form-group-II{
+    display:flex;
+    flex-direction: column;
+    font-family: Poppins;
+}
+
+.form-control{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    border:2px solid rgb(245, 245, 245);
+    resize:none;
+    border: 2px solid black;
+    filter: drop-shadow( 3px 3px black);
+    transition: all .3s ease-in-out;
+}
+.form-control:hover{
+    border-radius: 10px;
+    border: 2px solid rgb(255, 112, 23);
+}
+
+.form-control:focus{
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    border: 2px solid black;
+    outline: none;
+    filter:none;
+}
+
+.form-control:focus::placeholder{
+    color: transparent;
+}
+
+.form-control::placeholder{
+    font-family: Poppins;
+}
+
+.contact-image{
+    width: 40%;
+    height: auto;
+}
+
+#scroll{
+    position: relative;
+    left: 50px;
+}
+.contact-image-container{
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/* NIGHTMODE */
+
+.nightMode-contact-background{
+    background-color: black;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.nightMode-contact-container{
+    margin:auto;
+    text-align: center;
+    padding: 4rem 2rem 4rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.nightMode-contact-container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1rem;
+    color:white;
+}
+.nightMode-contact-container > :nth-child(2) {
+    filter:drop-shadow(3px 3px black);
+}
+
+.nightMode-contact-header-div{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.nightMode-contact-header-div >h1, .nightMode-contact-header-div >p{
+    display:inline-flex;
+    margin: auto;
+    color: black
+}
+
+.nightMode-contact-border{
+    margin:.5rem;
+    border:1px solid #3B10A8;;
+}
+.nightMode-my-form{
+    background-color: white;
+    padding:1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    filter: drop-shadow(3px 3px black);
+}
+.nightMode-submit-button{
+    width:100%;
+    margin-top: 1rem;
+    background-color: #E0FF99;
+    border: 2px solid black;
+    border-radius: 20px;
+    filter: drop-shadow(3px 3px black);
+    position: relative;
+    padding: .5rem 1rem;
+    bottom: 3px;
+    right:3px;
+    transition: all .3s ease-in;
+    font-family: Poppins;
+    color:black;
+    font-weight: 600;
+}
+
+.nightMode-submit-button:hover{
+    bottom: 0;
+    right: 0;
+    filter:none;
+    color:black;
+}
+
+.nightMode-contact-div{
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.nightMode-row-1, .nightMode-row-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nightMode-row-1> div, .nightMode-row-2>div{
+    padding:.5rem;
+}
+
+.nightMode-form-group-II{
+    display:flex;
+    flex-direction: column;
+    font-family: Poppins;
+}
+
+.nightMode-form-control{
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+    border:2px solid rgb(225, 225, 225);
+    resize:none;
+    border: 2px solid black;
+    filter: drop-shadow( 3px 3px black);
+    transition: all .3s ease-in-out;
+}
+.nightMode-form-control:hover{
+    border-radius: 10px;
+    border: 2px solid #E0FF99;
+}
+
+.nightMode-form-control:focus{
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+    border: 2px solid white;
+    outline: none;
+    filter:none;
+}
+
+.nightMode-form-control:focus::placeholder{
+    color: transparent;
+}
+
+.nightMode-form-control::placeholder{
+    font-family: Poppins;
+}
+
+.nightMode-contact-image{
+    width: 40%;
+    height: auto;
+}
+
+#scroll{
+    position: relative;
+    left: 50px;
+}
+.nightMode-contact-image-container{
+    margin-bottom: 3rem;
+}

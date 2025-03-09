@@ -1,0 +1,137 @@
+/* BottomButtons.module.css */
+
+.buttons-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  z-index: 100;
+  gap: 1rem;
+}
+
+.day-button > img, .night-button >img{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(22deg) brightness(102%) contrast(101%);
+  margin: auto;
+  display:block;
+}
+.night-button {
+  padding-block:0;
+  padding-inline: 0;
+  text-align: center;
+  padding:.75rem;
+  position: relative;
+  background-color: rgb(60, 16, 172);
+  color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  filter: drop-shadow(3px 3px black);
+  font-family: Poppins;
+  transition: all 0.2s ease;
+  bottom: 3px;
+  right:3px;
+}
+
+.night-button:hover {
+  background-color: rgb(102, 48, 240);
+  color: white;
+  border: 2px solid black;
+  font-family: Poppins;
+  filter: none;
+  bottom: 0; 
+  right: 0;
+}
+
+.day-button {
+  padding-block:0;
+  padding-inline: 0;
+  padding: .75rem;
+  position:relative;
+  background-color: gold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  filter: drop-shadow(3px 3px white);
+  font-family: Poppins;
+  transition: all 0.3s ease;
+  bottom: 3px;
+  right:3px;
+  align-content: baseline;
+}
+
+.day-button:hover {
+  background-color: rgb(255, 234, 115);
+  color: white;
+  border: 2px solid white;
+  font-family: Poppins;
+  filter: none;
+  bottom: 0; 
+  right: 0;
+}
+
+.scroll-button {
+  position:relative;
+  background-color: gold;
+  color: black;
+  border: 2px solid black;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  filter: drop-shadow(3px 3px black);
+  font-family: Poppins;
+  transition: all 0.3s ease-in;
+  bottom: 3px;
+  right:3px;
+}
+
+.scroll-button:hover {
+  background-color: rgb(255,112,23);
+  color:white;
+  border: 2px solid black;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  filter: none;
+  font-family: Poppins;
+  bottom: 0; 
+  right: 0;
+}
+
+
+
+/* NIGHTMODE  */
+
+
+.nightMode-scroll-button{
+  position:relative;
+  background-color: #3B10A8;
+  color: white;
+  border: 2px solid white;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  filter: drop-shadow(3px 3px white);
+  font-family: Poppins;
+  transition: all 0.3s ease-in;
+  bottom: 3px;
+  right:3px;
+}
+
+.nightMode-scroll-button:hover {
+  background-color: #3B10A8;
+  color:white;
+  border: 2px solid white;
+  padding: .5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  filter: none;
+  font-family: Poppins;
+  bottom: 0; 
+  right: 0;
+}
+
+
+
+
+
+
+

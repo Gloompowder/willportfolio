@@ -1,0 +1,11 @@
+/* HorizontalProgressBar.module.css */
+.progressBar {
+    height: 5px;
+    background-color: #007bff; /* Change the color as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    transition: width 0.3s;
+  }
+  

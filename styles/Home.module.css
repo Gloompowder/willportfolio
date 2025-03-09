@@ -1,0 +1,592 @@
+.intro{
+    opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 1s ease-in-out; /* Add a smooth transition effect over 1 second */
+  padding: 10rem 2rem;
+    margin: auto; 
+    background-color: gold;
+    border-bottom:3px solid black;
+}
+
+.intro > * {
+    display:block;
+    margin: auto;
+    justify-content: center;
+    padding: 3px;
+    align-self: center;
+    text-align: center;
+    transition: all ease-in;
+    font-size: x-large;
+}
+
+.intro > p {
+    font-size: x-large;
+}
+
+.intro.fade-in {
+    opacity: 1; /* Set opacity to 1 to make it visible */
+}
+
+.intro-highlight {
+    display: inline;
+    font-weight: 500;
+}
+
+.intro-buttons-container > {
+    appearance: none;
+}
+
+/* @keyframes scrollAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  } */
+  
+  @keyframes blinkAnimation {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+  
+  /* .scroll-down {
+    padding-top: 4.5rem;
+    transform: translateX(-50%);
+    animation: scrollAnimation 3s infinite, blinkAnimation 3s infinite;
+  } */
+    .scroll-down {
+    animation: blinkAnimation 2.5s infinite;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 4.5rem;
+    border-radius: 20px;
+    filter:drop-shadow(3px 3px black);
+    padding: .5rem 1rem;
+    width: 25%;
+    transition: .5s ease-in-out;
+  }
+  
+  .scroll-down::before {
+    /* display: inline-block;
+    border-radius: 50%;
+    border-top: none;
+    border-right: none;
+    position: relative;
+    transform: rotate(-45deg); */
+  }
+  
+  .intro > h1 {
+    font-size: 3.5rem;
+  }
+
+.Footer{
+    font-size: small;
+    display:flex;
+    flex-direction: row;
+    padding: 3rem 2rem 2rem;
+    justify-content: sc;
+    background-color: white;
+    color:black;
+}
+
+.Footer > *{
+    padding-right: 2rem;
+}
+
+
+.mobileFooter{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    background-color: white;;
+    color: black;
+}
+
+.mobileFooter >* {
+    padding:  1rem 0;
+}
+
+.mobileFooter> div>div>button{
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    background-color: rgb(255, 112, 23);
+    border-radius:20px;
+    filter:drop-shadow(3px 3px black);
+    border:2px solid black;
+    position: relative;
+    bottom:3px;
+    right: 3px;
+    transition: all .3s ease-in;
+    font-weight: 600;
+    color: white;
+}
+
+.mobileFooter :not(:first-child) > p, .mobileFooter :not(:first-child) > h2{
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+
+}
+
+.mobileFooter :not(:first-child) > p:hover, .mobileFooter :not(:first-child) > h2:hover{
+    color: rgb(255, 112, 23);
+    transition: .3s all ease-in-out;
+
+}
+
+
+.mobileFooter >div> div> button:hover{
+    filter: none;
+    bottom:0;
+    color:black;
+    right:0;
+    transition: .3s all ease-in-out;
+
+}
+
+.footerLogo{
+    padding: 1rem 0;
+    transition: .3s all ease-in-out;
+
+}
+
+.footer
+
+.Footer >div> h1, .mobileFooter >div> h1{
+    margin-bottom: 1rem;
+    cursor:pointer;
+    transition: .3s all ease-in-out;
+
+}
+
+.Footer >div> h1:hover, .mobileFooter >div> h1:hover{
+    color: rgb(255, 112, 23);
+}
+.Footer >div> h2, .mobileFooter >div> h2{
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: black;
+    transition: .3s all ease-in-out;
+
+}
+
+.Footer >div> h2:hover, .mobileFooter >div> h2:hover, .Footer > div> p:hover{
+    color: rgb(255, 112, 23);
+}
+.Footer >div> p, .Footer >div> a{
+    padding-bottom: .5rem;
+    cursor: pointer;
+    color:black;
+    text-decoration: none;
+    display: block;
+    transition: .3s all ease-in-out;
+
+    
+}
+.Footer >div> p>a{
+    padding-bottom: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: .3s all ease-in-out;
+
+}
+
+.Footer >div> p>a:hover{
+    color: rgb(255, 112, 23);
+}
+
+.Footer > div > button{
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    background-color: rgb(255, 112, 23);
+    font-weight: 600;
+    color: white;
+    border: 2px solid black;
+    filter: drop-shadow(3px 3px black);
+    font-family: Poppins;
+    position:relative;
+    bottom:3px;
+    right:3px;
+    transition: all .3s ease-in;
+}
+.Footer > div > button:hover{
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    background-color: rgb(255, 112, 23);
+    color: black;
+    border: 2px solid black;
+    filter: none;
+    font-family: Poppins;
+    bottom: 0;
+    right:0;
+}
+.Footer > div > a:hover{
+    color:rgb(255, 112, 23);
+}
+
+.copyright{
+    text-align: center;
+    font-size: smaller;
+    padding: .5rem 0;
+    color: black;
+}
+
+.loading-screen{
+    z-index: 1000;
+}
+
+.mobileFooter>div >div, .Footer >div>div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    transition: .3s all ease-in-out;
+
+    }
+
+.mobileFooter>div>div>a{
+    display:block;
+    align-items: center;
+    transition: .3s all ease-in-out;
+    
+}
+
+.Footer>div>div>a{
+    transition: .3s all ease-in-out;
+}
+
+.mobileFooter>div>div>a:hover, .Footer>div>div>a:hover{
+    display:block;
+    align-items: center;
+    scale: 1.2;
+}
+
+.mobileFooter>div>div {
+    justify-content: space-around;
+    margin: 0 3rem;
+    transition: .3s all ease-in-out;
+
+}
+
+/* styles/Home.module.css or your preferred stylesheet */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NIGHTMODE */
+.nightMode-intro{
+    opacity: 1; /* Set initial opacity to 0 */
+  transition: opacity 1s ease-in-out; /* Add a smooth transition effect over 1 second */
+  padding: 10rem 2rem;
+    margin: auto; 
+    background-color: black;
+    border-bottom:3px solid white;
+    color:white;
+}
+
+.nightMode-intro > * {
+    display:block;
+    margin: auto;
+    justify-content: center;
+    padding: 3px;
+    align-self: center;
+    text-align: center;
+    transition: all ease-in;
+    font-size: x-large;
+}
+
+.nightMode-intro > p {
+    font-size: x-large;
+}
+
+.nightMode-intro.fade-in {
+    opacity: 1; /* Set opacity to 1 to make it visible */
+}
+
+.nightMode-intro-highlight {
+    display: inline;
+    font-weight: 500;
+}
+
+.nightMode-intro-buttons-container > {
+    appearance: none;
+}
+
+/* @keyframes scrollAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  } */
+  
+  @keyframes blinkAnimation {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+  
+  /* .scroll-down {
+    padding-top: 4.5rem;
+    transform: translateX(-50%);
+    animation: scrollAnimation 3s infinite, blinkAnimation 3s infinite;
+  } */
+    .nightMode-scroll-down {
+    animation: blinkAnimation 2.5s infinite;
+    background-color: #3B10A8;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 4.5rem;
+    border-radius: 20px;
+    filter:drop-shadow(3px 3px white);
+    padding: .5rem 1rem;
+    width: 25%;
+    transition: .5s ease-in-out;
+  }
+  
+  .nightMode-scroll-down::before {
+    /* display: inline-block;
+    border-radius: 50%;
+    border-top: none;
+    border-right: none;
+    position: relative;
+    transform: rotate(-45deg); */
+  }
+  
+  .nightMode-intro > h1 {
+    font-size: 3.5rem;
+  }
+
+.nightMode-Footer{
+    font-size: small;
+    display:flex;
+    flex-direction: row;
+    padding: 3rem 2rem 2rem;
+    justify-content: sc;
+    background-color: black;
+    color:white;
+}
+
+.nightMode-Footer > *{
+    padding-right: 2rem;
+}
+
+
+.nightMode-mobileFooter{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+.nightMode-mobileFooter >* {
+    padding:  1rem 0;
+}
+
+.nightMode-mobileFooter> div>div>button{
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    background-color: #3B10A8;
+    border-radius:20px;
+    filter:drop-shadow(3px 3px white);
+    border:2px solid white;
+    position: relative;
+    bottom:3px;
+    right: 3px;
+    transition: all .3s ease-in;
+    font-weight: 600;
+    color: white;
+}
+
+.nightMode-mobileFooter :not(:first-child) > p, .nightMode-mobileFooter :not(:first-child) > h2{
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-mobileFooter :not(:first-child) > p:hover, .nightMode-mobileFooter :not(:first-child) > h2:hover{
+    color: #E0FF99;
+    transition: .3s all ease-in-out;
+
+}
+
+
+.nightMode-mobileFooter >div> div> button:hover{
+    filter: none;
+    bottom:0;
+    color:white;
+    right:0;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-footerLogo{
+    padding: 1rem 0;
+    transition: .3s all ease-in-out;
+
+}
+
+
+
+.nightMode-Footer >div> h1, .nightMode-mobileFooter >div> h1{
+    margin-bottom: 1rem;
+    cursor:pointer;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-Footer >div> h1:hover, .nightMode-mobileFooter >div> h1:hover{
+    color: #E0FF99;
+}
+.nightMode-Footer >div> h2, .nightMode-mobileFooter >div> h2{
+    cursor: pointer;
+    margin-bottom: 1rem;
+    color: white;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-Footer >div> h2:hover, .nightMode-mobileFooter >div> h2:hover, .nightMode-Footer > div> p:hover{
+    color: #E0FF99;
+}
+.nightMode-Footer >div> p, .nightMode-Footer >div> a{
+    padding-bottom: .5rem;
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+    display: block;
+    transition: .3s all ease-in-out;
+
+    
+}
+.nightMode-Footer >div> p>a{
+    padding-bottom: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-Footer >div> p>a:hover{
+    color: rgb(255, 112, 23);
+}
+
+.nightMode-Footer > div > button{
+    margin-top: 2rem;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    background-color: #3B10A8;
+    font-weight: 600;
+    color: white;
+    border: 2px solid white;
+    filter: drop-shadow(3px 3px white);
+    font-family: Poppins;
+    position:relative;
+    bottom:3px;
+    right:3px;
+    transition: all .3s ease-in;
+}
+.nightMode-Footer > div > button:hover{
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    background-color: #3B10A8;
+    color: white;
+    border: 2px solid white;
+    filter: none;
+    font-family: Poppins;
+    bottom: 0;
+    right:0;
+}
+.nightMode-Footer > div > a:hover{
+    color:#E0FF99;
+}
+
+.nightMode-copyright{
+    text-align: center;
+    font-size: smaller;
+    padding: .5rem 0;
+    color: white;
+    background-color: black;
+}
+
+.nightMode-loading-screen{
+    z-index: 1000;
+}
+
+.nightMode-mobileFooter>div >div, .nightMode-Footer >div>div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    transition: .3s all ease-in-out;
+
+    }
+
+.nightMode-mobileFooter>div>div>a{
+    display:block;
+    align-items: center;
+    transition: .3s all ease-in-out;
+    
+}
+
+.nightMode-Footer>div>div>a{
+    transition: .3s all ease-in-out;
+}
+
+.nightMode-mobileFooter>div>div>a:hover, .nightMode-Footer>div>div>a:hover{
+    display:block;
+    align-items: center;
+    scale: 1.2;
+}
+
+.nightMode-mobileFooter>div>div {
+    justify-content: space-around;
+    margin: 0 3rem;
+    transition: .3s all ease-in-out;
+
+}
+
+.nightMode-mobileFooter> div>div>button{
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    background-color: #3B10A8;
+    border-radius:20px;
+    filter:drop-shadow(3px 3px white);
+    border:2px solid white;
+    position: relative;
+    bottom:3px;
+    right: 3px;
+    transition: all .3s ease-in;
+    font-weight: 600;
+    color: white;
+}
+

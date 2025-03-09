@@ -1,0 +1,204 @@
+/* NavBar.module.css */
+.navbar-container, .mobile-navbar-container {
+    top: 0;
+    left: 0;
+    z-index: 300; /* Adjust z-index as needed */
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    border-bottom: 3px solid black;
+    background-color: white;
+    color: black;
+}
+
+.navbar-home-container,.mobile-navbar-home-container{
+    cursor: pointer;
+padding:0 2rem;
+transition: all 0.3s eas;
+}
+
+.navbar-home-container:hover,.mobile-navbar-home-container:hover{
+    color: rgb(255, 112,23);
+}
+
+.navbar-subgroup{
+    display:flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar-container > * ,.mobile-navbar-container > *{
+    align-self: center;
+    height: 100%;
+    padding: .5rem 2rem;
+    transition: .3s all ease-in-out;
+}
+
+.navbar-subgroup >button{
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: rgb(255, 112,23);
+    filter: drop-shadow(3px 3px black);
+    color:white;
+    font-weight: 600;
+    transition: all .3s ease-in;
+    bottom:3px;
+    right:3px;
+    font-family: Poppins;
+}
+
+.navbar-subgroup >button:hover{
+    filter:none;
+    bottom:0;
+    right:0;
+}
+
+.navbar-container > h1, .mobile-navbar-container > h1{
+    display:inline;
+}
+
+.navbar-container > h1:hover, .mobile-navbar-container > h1:hover{
+    display:inline;
+    color: gold;
+}
+
+.mobile-navbar-button-container{
+    align-content: center;
+}
+
+.mobile-navbar-button-container > button {
+    position: relative;
+    bottom: 3px;
+    right:3px;
+    background-color: rgb(255, 112,23);
+    border:2px solid black;
+    filter: drop-shadow(3px 3px black);
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    color:black;
+    font-weight: 600;
+    transition: all .3s ease-in;
+}
+
+.mobile-navbar-button-container > button:hover{
+    bottom:0;
+    right:0;
+    filter: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NIGHTMODE */
+
+
+/* NavBar.module.css */
+.nightMode-navbar-container, .nightMode-mobile-navbar-container {
+    top: 0;
+    left: 0;
+    z-index: 300; /* Adjust z-index as needed */
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    border-bottom: 3px solid white;
+    background-color: black;
+    color: white;
+}
+
+.nightMode-navbar-home-container,.nightMode-mobile-navbar-home-container{
+    cursor: pointer;
+padding:0 2rem;
+transition: all 0.3s ease-in-out;
+}
+
+.nightMode-navbar-home-container:hover,.nightMode-mobile-navbar-home-container:hover{
+    color: #e0ff99;
+}
+
+.nightMode-navbar-subgroup{
+    display:flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+
+.nightMode-navbar-container > * ,.nightMode-mobile-navbar-container > *{
+    align-self: center;
+    height: 100%;
+    padding: .5rem 2rem;
+    transition: .3s all ease-in-out;
+}
+
+.nightMode-navbar-subgroup >button{
+    position: relative;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #3B10A8;
+    filter: drop-shadow(3px 3px white);
+    color:white;
+    font-weight: 600;
+    transition: all .3s ease-in;
+    bottom:3px;
+    right:3px;
+    font-family: Poppins;
+}
+
+.nightMode-navbar-subgroup >button:hover{
+    filter:none;
+    bottom:0;
+    right:0;
+}
+
+.nightMode-navbar-container > h1, .nightMode-mobile-navbar-container > h1{
+    display:inline;
+}
+
+.ngithMode-navbar-container > h1:hover, .ngithMode-mobile-navbar-container > h1:hover{
+    display:inline;
+    color: gold;
+}
+
+.ngihtMode-mobile-navbar-button-container{
+    align-content: center;
+}
+
+.nightMode-mobile-navbar-button-container > button {
+    position: relative;
+    bottom: 3px;
+    right:3px;
+    background-color: #3B10A8;
+    border:2px solid white;
+    filter: drop-shadow(3px 3px white);
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    color:white;
+    font-weight: 600;
+    transition: all .3s ease-in;
+}
+
+.nightMode-mobile-navbar-button-container > button:hover{
+    bottom:0;
+    right:0;
+    filter: none;
+}
+
+
+
+
